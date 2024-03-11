@@ -1,7 +1,13 @@
+
+""" Ref: Intermediate to Advanced Python with 10 OOP Projects-Udemy
+"""
+
+
 from flask.views import MethodView
 from wtforms import Form, StringField, SubmitField
 from flask import Flask, render_template, request
 from flatmates_bill import flat
+
 app = Flask(__name__)
 
 
